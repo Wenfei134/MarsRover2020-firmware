@@ -169,32 +169,32 @@ typedef enum {
   JOY_SM_X = PC_4,
   JOY_SM_Y = PC_5,
 
-  JOY_BTN  = PA_4,
-  JOY_X    = PA_5,
-  JOY_Y    = PA_6,
+  JOY_BTN = PA_4,
+  JOY_X   = PA_5,
+  JOY_Y   = PA_6,
 
   /**** Pushbutton Pins ****/
-  PB1     = PB_14,
-  PB2     = PB_15,
+  PB1 = PB_14,
+  PB2 = PB_15,
 
   /**** Switch Pins ****/
-  SW_1A    = PC_6,
-  SW_1B    = PC_7,
-  SW_2A    = PC_8,
-  SW_2B    = PC_9,
+  SW_1A = PC_6,
+  SW_1B = PC_7,
+  SW_2A = PC_8,
+  SW_2B = PC_9,
 
   /**** Potentiometer Pins ****/
   POT_AL       = PA_1,
   SLIDE_POT_AL = PA_2,
 
   /**** Serial Interface Pins ****/
-  SERIAL_TX  = STDIO_UART_TX,
-  SERIAL_RX  = STDIO_UART_RX,
+  SERIAL_TX = STDIO_UART_TX,
+  SERIAL_RX = STDIO_UART_RX,
 
   USB_RTS = PA_7,
   USB_CTS = PA_8,
-  USBTX = PA_9,
-  USBRX = PA_10,
+  USBTX   = PA_9,
+  USBRX   = PA_10,
 
   /**** OSCILLATOR pins ****/
   RCC_OSC32_IN  = PC_14,
